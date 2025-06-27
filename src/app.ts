@@ -10,7 +10,6 @@ const db: { products: Product[] } = {
 };
 
 export function resetDatabase() {
-  db.products = [];
 }
 
 export function addProduct(product: Omit<Product, 'id'>): Product {
